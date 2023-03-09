@@ -1,0 +1,11 @@
+.paragraph {
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 767px) {
+    .paragraph {
+		margin: 32px auto 0;
+		width: calc(100% - 16px*2);
+	}
+}

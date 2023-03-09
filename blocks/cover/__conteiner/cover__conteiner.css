@@ -1,0 +1,21 @@
+.cover__conteiner {
+	width: calc(100% - 48px*2);
+	margin: 0 auto;
+	background-image: url(../../../images/cover-trains.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 1279px) {
+	.cover__conteiner {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.cover__conteiner {
+		width: 100%;
+		object-fit: cover;
+	}
+}

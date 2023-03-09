@@ -1,0 +1,13 @@
+.header__lang-link_en {
+	margin: 0;
+	width: 29px;
+	height: 28px;
+	text-decoration: none;
+}
+
+@media (max-width: 767px) {
+	.header__lang-link_en {
+		width: 22px;
+		height: 20px;
+	}
+}

@@ -1,0 +1,22 @@
+.lead__conteiner {
+	width: calc(100% - 148px*2);
+	margin: 0 auto;
+}
+
+@media (max-width: 1279px) {
+	.lead__conteiner {
+		width: calc(100% - 48px*2);
+	}
+}
+
+@media (max-width: 1023px) {
+	.lead__conteiner {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.lead__conteiner {
+		width: 100%;
+	}
+}

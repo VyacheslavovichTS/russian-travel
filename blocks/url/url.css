@@ -1,0 +1,13 @@
+.url {
+	justify-content: end;
+	margin: 0;
+	padding: 0;
+	align-self: end;
+}
+
+@media (max-width: 767px) {
+    .url {
+		margin: 32px auto 32px;
+		width: calc(100% - 16px*2);
+	}
+}

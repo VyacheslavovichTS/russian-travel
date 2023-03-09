@@ -1,0 +1,16 @@
+.photo-grid__conteiner {
+	width: calc(100% - 48px*2);
+	margin: 0 auto;
+}
+
+@media (max-width: 1023px) {
+    .photo-grid__conteiner {
+		width: calc(100% - 24px*2);
+	}
+}
+
+@media (max-width: 767px) {
+    .photo-grid__conteiner {
+		width: calc(100% - 16px*2);
+	}
+}

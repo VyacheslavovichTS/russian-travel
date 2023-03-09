@@ -1,0 +1,19 @@
+.place__link {
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+
+.place__link:hover {
+	opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+    .place__link {
+		width: 288px;
+	}
+
+    .place__link:hover {
+		opacity: 0.8;
+	}
+}
